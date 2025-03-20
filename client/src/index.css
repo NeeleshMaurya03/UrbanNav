@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Sidebar Styling */
+.sidebar {
+  @apply bg-gray-900 text-white h-screen w-60 p-5;
+}
+
+.sidebar ul {
+  @apply space-y-4;
+}
+
+.sidebar li {
+  @apply cursor-pointer p-3 rounded-lg hover:bg-gray-700 transition-all duration-300;
+}
+
+.sidebar .active {
+  @apply bg-blue-500 text-white font-bold;
+}
